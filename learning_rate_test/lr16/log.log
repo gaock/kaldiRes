@@ -1,0 +1,268 @@
+1896
+
+hmm-info /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl 
+
+
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl 'ark:gunzip -c /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/ali.*.gz |' ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+LOG (analyze-counts[5.5.307~1-e3a9]:main():analyze-counts.cc:194) Summed 6648 int32 vectors to counts, skipped 0 vectors.
+LOG (analyze-counts[5.5.307~1-e3a9]:main():analyze-counts.cc:196) Counts written to exp/lr16/exp_files/forward_out_dnn1_lab_cd.count
+
+
+/bin/sh: 1: blockdiag: not found
+
+
+/bin/sh: 1: blockdiag: not found
+
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep00_ck0_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep00_ck1_mfcc.lst ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep00_ck2_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 740 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 740 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep00_ck3_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep00_ck4_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/valid_TIMIT_dev_ep00_ck0_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/dev/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_dev.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 400 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 400 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali_dev/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 400 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep01_ck0_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep01_ck1_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep01_ck2_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 740 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 740 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep01_ck3_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep01_ck4_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/valid_TIMIT_dev_ep01_ck0_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/dev/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_dev.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 400 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 400 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali_dev/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 400 alignments to pdf sequences.
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep02_ck0_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep02_ck1_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep02_ck2_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 740 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 740 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep02_ck3_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep02_ck4_mfcc.lst ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/valid_TIMIT_dev_ep02_ck0_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/dev/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_dev.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 400 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 400 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali_dev/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 400 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep03_ck0_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep03_ck1_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep03_ck2_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 740 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 740 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep03_ck3_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep03_ck4_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/valid_TIMIT_dev_ep03_ck0_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/dev/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_dev.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 400 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 400 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali_dev/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 400 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep04_ck0_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep04_ck1_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep04_ck2_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 740 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 740 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep04_ck3_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+add-deltas --delta-order=2 ark:- ark:- 
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep04_ck4_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/valid_TIMIT_dev_ep04_ck0_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/dev/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_dev.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 400 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 400 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali_dev/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 400 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep05_ck0_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep05_ck1_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep05_ck2_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 740 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 740 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep05_ck3_mfcc.lst ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/train_TIMIT_tr_ep05_ck4_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/train/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_train.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 739 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 739 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 6648 alignments to pdf sequences.
+copy-feats scp:exp/lr16/exp_files/valid_TIMIT_dev_ep05_ck0_mfcc.lst ark:- 
+add-deltas --delta-order=2 ark:- ark:- 
+apply-cmvn --utt2spk=ark:/home/gaochuanp/kaldi/egs/timit/s5/data/dev/utt2spk ark:/home/gaochuanp/kaldi/egs/timit/s5/mfcc/cmvn_dev.ark ark:- ark:- 
+LOG (copy-feats[5.5.307~1-e3a9]:main():copy-feats.cc:143) Copied 400 feature matrices.
+LOG (apply-cmvn[5.5.307~1-e3a9]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 400 utterances, errors on 0
+ali-to-pdf /home/gaochuanp/kaldi/egs/timit/s5/exp/dnn4_pretrain-dbn_dnn_ali_dev/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.5.307~1-e3a9]:main():ali-to-pdf.cc:68) Converted 400 alignments to pdf sequences.
