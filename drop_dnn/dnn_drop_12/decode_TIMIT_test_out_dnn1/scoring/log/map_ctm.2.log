@@ -1,0 +1,5 @@
+# mkdir /home/gaochuanp/pytorch-kaldi/exp/dnn_drop_12/decode_TIMIT_test_out_dnn1/score_2 ; cat /home/gaochuanp/pytorch-kaldi/exp/dnn_drop_12/decode_TIMIT_test_out_dnn1/scoring/2.ctm | utils/int2sym.pl -f 5 /home/gaochuanp/kaldi/egs/timit/s5/exp/tri3/graph/words.txt | local/timit_norm_trans.pl -i - -m conf/phones.60-48-39.map -from 48 -to 39 > /home/gaochuanp/pytorch-kaldi/exp/dnn_drop_12/decode_TIMIT_test_out_dnn1/scoring/2.ctm_39phn 
+# Started at Wed May 29 09:33:16 UTC 2019
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed May 29 09:33:16 UTC 2019, elapsed time 0 seconds
